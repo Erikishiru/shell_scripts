@@ -6,8 +6,9 @@ echo "Staging files to commit"
 git add .
 echo "All files added"
 git status 
-read -p "Enter a commit message: " message;
-git commit -m "$message"
+# read -p "Enter a commit message: " message;
+# git commit -m "$message"
+git commit -m "First Commit"
 echo "Create a new repository on GitHub"
 read -p "Enter the name of the newly created git repository: " name;
 git remote add origin https://github.com/Erikishiru/$name.git
